@@ -17,7 +17,9 @@ app.get("", (req, res) => {
 app.get("/Neil", (req, res) => {
   res.render("neil", { title: "Neil Page" });
 });
-//Team Members Add Routes
+app.get("/Trupti", (req, res) => {
+  res.render("trupti", { title: "Trupti's Page" });
+});
 
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
