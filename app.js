@@ -20,6 +20,9 @@ app.get("/Neil", (req, res) => {
 app.get("/Trupti", (req, res) => {
   res.render("trupti", { title: "Trupti's Page" });
 });
+app.get("/Ivy", (req, res) => {
+  res.render("ivy", { title: "Ivy's Page" });
+});
 
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
