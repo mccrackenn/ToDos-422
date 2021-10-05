@@ -23,6 +23,10 @@ app.get("/Trupti", (req, res) => {
 app.get("/Ivy", (req, res) => {
   res.render("ivy", { title: "Ivy's Page" });
 });
+app.get("/Conner", (req, res) => {
+  res.render("conner", { title: "Conner's Page" });
+});
+
 
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
